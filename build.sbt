@@ -2,13 +2,12 @@ name := "veryfay"
 
 organization := "com.github.florinn"
 
-version := "0.2-SNAPSHOT"
+version := "0.4-SNAPSHOT"
 
-scalaVersion := "2.12.7"
+scalaVersion := "2.13.2"
 
 libraryDependencies += "org.scala-lang" % "scala-reflect" % scalaVersion.value
-
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.7" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.0" % "test"
 
 publishTo := {
   val nexus = "https://oss.sonatype.org/"
